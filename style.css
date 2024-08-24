@@ -36,8 +36,9 @@ header {
     color:  #7999A3;
     padding: 6px 15px;
     border-radius: 20px;
-    margin: 0 10px;
+    margin: 0 0;
     font-weight: 600;
+    justify-content: flex-end;
 }
 
 .navigation a:hover,
@@ -55,10 +56,11 @@ header {
 }
 
 #text {
+    top: 100px;
     position: absolute;
-    font-size: 5em;
+    font-size: 8em;
     color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .9);
 }
 
 .parallax img {
