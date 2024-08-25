@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
-* {
+*{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    font-family:'Poppins', sans-serif;
 }
+
 body {
-    background: #f9f9f9;
+    background: #01334E;
     min-height: 100vh;
-    overflow-x: hidden;    
+    border: 0;
+    margin: 0;
 }
 
 header {
@@ -17,33 +17,36 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding-top: 3vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    z-index: 1;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    z-index: 100;
 }
 
 .logo {
     font-size: 2em;
     color: #7999A3;
     pointer-events: none;
-    margin-right: 270px;
+    margin-right: 70vh;
 }
 
-.navigation a{
+.navigation a{ 
     text-decoration: none;
-    color:  #7999A3;
-    padding: 6px 15px;
+    color: #7999A3;
     border-radius: 20px;
-    margin: 0 0;
+    padding: 0 15px;
     font-weight: 600;
-    justify-content: flex-end;
 }
 
-.navigation a:hover,
-.navigation a.active{
-    background: #7999A3;
+.navigation a:hover {
+    background-color: #7999A3;
+    color: #fff;
+}
+.navigation a.active {
+    background-color: #7999A3;
     color: #fff;
 }
 
@@ -56,10 +59,10 @@ header {
 }
 
 #text {
-    top: 100px;
     position: absolute;
+    top: 10vh;
     font-size: 8em;
-    color: #fff;
+    color: aliceblue;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .9);
 }
 
@@ -73,7 +76,9 @@ header {
 .sec{
     position: relative;
     background: #01334E;
-    padding: 100px;
+    padding-top: 0;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 
 .sec h2 {
